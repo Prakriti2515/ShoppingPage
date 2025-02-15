@@ -33,16 +33,16 @@ body{
     justify-content: center;
 }
 #search{
-    padding: 0.1em;
+    padding: 0.2rem;
     font-size: medium;
 }
 #search-button{
-    /* padding: 0.1em; */
+    padding: 0.2rem;
     background-color:darkgray;
 
 }
 #search-button :hover{
-    background-color:darkslategrey;
+    background-color:black;
 }
 #nav-list{
     right: 0;
@@ -55,9 +55,14 @@ body{
 .nav-tags{
     display: inline;
     list-style-type: none;
-    padding: 0.1em;
-    background-color: blanchedalmond;
+    padding: 0.2em;
+    background-color:silver ;
+    border: none;
+    
 }
 .nav-tags :hover{
     background-color: darkgrey;
+}
+.nav-link{
+    text-decoration: none;
 }
